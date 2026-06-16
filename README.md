@@ -63,12 +63,12 @@ Each run clears old `*_psy_*.png` files for the selected mode before writing the
 ## Pattern Families
 
 - `all`: every pattern family.
-- `op_art`: high-contrast math and optical patterns.
+- `op_art`: high-contrast math, optical, kaleidoscope, ray, and bubble patterns.
 - `scene_cards` / `text_safe`: plates with calmer center areas for text or no-HUD scenes.
-- `glitch`: CRT, scan, static, and signal patterns.
-- `maps`: contour, circuit, cellular, and sigil-like patterns.
+- `glitch`: CRT, scan, static, signal, and data-rain patterns.
+- `maps`: contour, circuit, cellular, maze, city-grid, and sigil-like patterns.
 - `weather`: rain, fog, heat shimmer, and static.
-- `ornamental`: lace, damask, woven, and geometric motifs.
+- `ornamental`: lace, damask, woven, ivy, and geometric motifs.
 
 ## Render Styles
 

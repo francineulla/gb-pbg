@@ -84,6 +84,14 @@ PATTERNS = [
     "signal_bars",
     "ripple_field",
     "woven",
+    "kaleidoscope",
+    "maze",
+    "data_rain",
+    "sunburst",
+    "bubble_chamber",
+    "city_grid",
+    "ivy_scroll",
+    "window_card",
 ]
 
 FAMILY_PATTERNS = {
@@ -101,6 +109,9 @@ FAMILY_PATTERNS = {
         "checker_tunnel",
         "ripple_field",
         "woven",
+        "kaleidoscope",
+        "sunburst",
+        "bubble_chamber",
     ],
     "scene_cards": [
         "title_plate",
@@ -109,6 +120,7 @@ FAMILY_PATTERNS = {
         "spotlight_plate",
         "corner_bloom",
         "split_panel",
+        "window_card",
     ],
     "text_safe": [
         "title_plate",
@@ -117,6 +129,7 @@ FAMILY_PATTERNS = {
         "spotlight_plate",
         "corner_bloom",
         "split_panel",
+        "window_card",
     ],
     "glitch": [
         "crt_glitch",
@@ -124,6 +137,7 @@ FAMILY_PATTERNS = {
         "signal_bars",
         "snow_static",
         "interference",
+        "data_rain",
     ],
     "maps": [
         "topographic",
@@ -131,6 +145,8 @@ FAMILY_PATTERNS = {
         "circuit_board",
         "flower_of_life",
         "magic_circle",
+        "maze",
+        "city_grid",
     ],
     "weather": [
         "rain_diagonal",
@@ -144,6 +160,8 @@ FAMILY_PATTERNS = {
         "flower_of_life",
         "wave_grid",
         "woven",
+        "ivy_scroll",
+        "kaleidoscope",
     ],
 }
 
@@ -157,6 +175,8 @@ ANIMATION_PATTERNS = [
     "signal_bars",
     "ripple_field",
     "fog_bands",
+    "kaleidoscope",
+    "data_rain",
 ]
 
 
@@ -470,6 +490,94 @@ def pattern_value(pattern: str, x: int, y: int, variant: int, seed: int, width: 
         weft = math.sin((y + math.sin(x * 0.11 - s) * 3.0) * 0.46)
         over_under = 0.25 if ((x // 8) + (y // 8)) % 2 else -0.25
         return normalize(warp + weft + over_under)
+
+    if pattern == "kaleidoscope":
+        symmetry = 6 + variant % 7
+        sector = (a + math.pi) % (math.pi * 2.0 / symmetry)
+        folded = abs(sector - math.pi / symmetry)
+        spokes = math.sin(folded * 34.0 + r * 92.0 + s)
+        facets = math.cos((nx * math.cos(folded) + ny * math.sin(folded)) * 70.0 - s)
+        return normalize(spokes + facets * 0.75 + math.sin(r * 135.0) * 0.35)
+
+    if pattern == "maze":
+        tx = x // TILE
+        ty = y // TILE
+        lx = x % TILE
+        ly = y % TILE
+        cell = noise01(tx, ty, seed + variant * 11)
+        north = ly in (0, 1) and cell > 0.22
+        west = lx in (0, 1) and noise01(tx - 1, ty, seed + variant * 11) > 0.46
+        east = lx in (6, 7) and noise01(tx + 1, ty, seed + variant * 7) > 0.58
+        south = ly in (6, 7) and noise01(tx, ty + 1, seed + variant * 5) > 0.52
+        path = normalize(math.sin((tx + ty) * 0.75 + s) + math.sin((tx - ty) * 0.6))
+        return 0.95 if north or west or east or south else path * 0.45
+
+    if pattern == "data_rain":
+        col = x // 5
+        speed = 2 + int(noise01(col, variant, seed) * 5)
+        head = int((seed + variant * 17 + col * 13 + y // speed) % height)
+        trail = abs((y - head + height) % height)
+        glyph = noise01(col, y // 6, seed + variant) > 0.72 and x % 5 in (1, 2, 3)
+        scan = 0.16 if y % 4 == 0 else 0.0
+        rain = max(0.0, 1.0 - trail / 42.0)
+        return max(scan, rain, 0.85 if glyph and trail < 54 else 0.0)
+
+    if pattern == "sunburst":
+        rays = math.sin(a * (18 + variant % 10) + math.sin(r * 35.0 + s) * 0.8)
+        rings = math.sin(r * 120.0 - s)
+        horizon = 0.9 if abs(y - height * (0.58 + math.sin(s) * 0.05)) < 2 else 0.0
+        glow = max(0.0, 1.0 - r * 2.2)
+        return max(horizon, normalize(rays * 1.2 + rings * 0.45) * 0.75 + glow * 0.25)
+
+    if pattern == "bubble_chamber":
+        value = 0.0
+        spacing = 0.18 + (variant % 4) * 0.015
+        for iy in range(-3, 4):
+            for ix in range(-4, 5):
+                jitter_x = (noise01(ix, iy, seed + variant) - 0.5) * spacing * 0.65
+                jitter_y = (noise01(ix + 17, iy - 9, seed + variant) - 0.5) * spacing * 0.55
+                cx = ix * spacing + jitter_x
+                cy = iy * spacing * 0.92 + jitter_y
+                rr = math.sqrt((nx - cx) ** 2 + (ny - cy) ** 2)
+                radius = spacing * (0.22 + noise01(ix * 3, iy * 5, seed) * 0.28)
+                ring = 1.0 if abs(rr - radius) < 0.008 else 0.0
+                fill = max(0.0, 1.0 - rr / max(radius, 0.001)) * 0.42
+                value = max(value, ring, fill)
+        current = normalize(math.sin((nx + ny) * 32.0 + s) + math.sin(y * 0.11))
+        return max(value, current * 0.38)
+
+    if pattern == "city_grid":
+        horizon = height * (0.48 + math.sin(s) * 0.04)
+        depth = max(0.12, (y - horizon) / max(1.0, height - horizon))
+        road_x = (x - width / 2) / (depth * 2.2 + 0.18) + width / 2
+        vertical = periodic_line(road_x + math.sin(y * 0.04 + s) * 2.5, 18.0, 1.2)
+        horizontal = periodic_line((y - horizon) / (depth + 0.16), 11.0, 1.0) if y > horizon else 0.0
+        skyline = 0.0
+        if y < horizon:
+            block = x // 12
+            building_h = 18 + int(noise01(block, variant, seed) * 45)
+            top = horizon - building_h
+            window = (x % 12 in (3, 4, 8, 9)) and (int(y) % 9 in (2, 3))
+            skyline = 0.88 if y > top and window else 0.32 if y > top else 0.05
+        return max(vertical, horizontal, skyline)
+
+    if pattern == "ivy_scroll":
+        vine = abs(math.sin(nx * 16.0 + math.sin(ny * 22.0 + s) * 2.5))
+        curl = math.sin(a * (7 + variant % 5) + r * 64.0 + s)
+        leaves = 1.0 if abs(math.sin((nx + ny) * 36.0 + curl * 2.0)) > 0.94 and vine < 0.42 else 0.0
+        tendril = 1.0 if vine < 0.085 else 0.0
+        shade = normalize(math.cos(ny * 38.0 - s) + curl * 0.8)
+        return max(tendril, leaves, shade * 0.42)
+
+    if pattern == "window_card":
+        border = 0.94 if x < 4 or x >= width - 4 or y < 4 or y >= height - 4 else 0.0
+        pane_x = 0.9 if abs(x - width * 0.5) < 2 else 0.0
+        pane_y = 0.9 if abs(y - height * 0.5) < 2 else 0.0
+        mullion = max(pane_x, pane_y)
+        corner_texture = normalize(math.sin((abs(nx) * 44.0 + abs(ny) * 39.0) + s))
+        center_quiet = 0.32 + normalize(math.sin((x + y) * 0.025 + s)) * 0.1
+        quiet = center_quiet if abs(nx) < 0.31 and abs(ny) < 0.22 else corner_texture
+        return max(border, mullion, quiet)
 
     raise ValueError(f"Unknown pattern: {pattern}")
 

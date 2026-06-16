@@ -12,20 +12,20 @@
   ],
   "gbcPaletteMode": "image",
   "softTileBudget": 192,
-  "paletteLab": "tools/psychedelic_backgrounds/generated/palette_lab.png",
-  "seedExplorerContactSheet": "tools/psychedelic_backgrounds/generated/seed_explorer_contact_sheet.png",
+  "paletteLab": "GitHub/gb-pbg/generated/palette_lab.png",
+  "seedExplorerContactSheet": "GitHub/gb-pbg/generated/seed_explorer_contact_sheet.png",
   "animations": [
     {
       "mode": "gb",
       "pattern": "rings",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_00_rings/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_00_rings/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_00_rings/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_00_rings/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gb/anim_00_rings/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_00_rings/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_00_rings/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_00_rings/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gb/anim_00_rings/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gb/anim_00_rings/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -34,12 +34,12 @@
       "pattern": "vortex",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_01_vortex/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_01_vortex/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_01_vortex/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_01_vortex/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gb/anim_01_vortex/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_01_vortex/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_01_vortex/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_01_vortex/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gb/anim_01_vortex/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gb/anim_01_vortex/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -48,12 +48,12 @@
       "pattern": "star_tunnel",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_02_star_tunnel/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_02_star_tunnel/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_02_star_tunnel/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_02_star_tunnel/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gb/anim_02_star_tunnel/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_02_star_tunnel/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_02_star_tunnel/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_02_star_tunnel/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gb/anim_02_star_tunnel/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gb/anim_02_star_tunnel/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -62,12 +62,12 @@
       "pattern": "pinwheel",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_03_pinwheel/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_03_pinwheel/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_03_pinwheel/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_03_pinwheel/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gb/anim_03_pinwheel/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_03_pinwheel/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_03_pinwheel/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_03_pinwheel/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gb/anim_03_pinwheel/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gb/anim_03_pinwheel/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -76,12 +76,12 @@
       "pattern": "checker_tunnel",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_04_checker_tunnel/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_04_checker_tunnel/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_04_checker_tunnel/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_04_checker_tunnel/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gb/anim_04_checker_tunnel/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_04_checker_tunnel/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_04_checker_tunnel/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_04_checker_tunnel/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gb/anim_04_checker_tunnel/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gb/anim_04_checker_tunnel/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -90,12 +90,12 @@
       "pattern": "signal_bars",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_05_signal_bars/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_05_signal_bars/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_05_signal_bars/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gb/anim_05_signal_bars/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gb/anim_05_signal_bars/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_05_signal_bars/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_05_signal_bars/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gb/anim_05_signal_bars/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gb/anim_05_signal_bars/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gb/anim_05_signal_bars/strip.png",
       "maxUniqueTiles": 359,
       "tileErrors": 0
     },
@@ -104,12 +104,12 @@
       "pattern": "rings",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_00_rings/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_00_rings/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_00_rings/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_00_rings/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gbc/anim_00_rings/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_00_rings/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_00_rings/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_00_rings/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gbc/anim_00_rings/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gbc/anim_00_rings/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -118,12 +118,12 @@
       "pattern": "vortex",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_01_vortex/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_01_vortex/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_01_vortex/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_01_vortex/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gbc/anim_01_vortex/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_01_vortex/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_01_vortex/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_01_vortex/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gbc/anim_01_vortex/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gbc/anim_01_vortex/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -132,12 +132,12 @@
       "pattern": "star_tunnel",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_02_star_tunnel/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_02_star_tunnel/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_02_star_tunnel/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_02_star_tunnel/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gbc/anim_02_star_tunnel/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_02_star_tunnel/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_02_star_tunnel/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_02_star_tunnel/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gbc/anim_02_star_tunnel/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gbc/anim_02_star_tunnel/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -146,12 +146,12 @@
       "pattern": "pinwheel",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_03_pinwheel/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_03_pinwheel/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_03_pinwheel/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_03_pinwheel/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gbc/anim_03_pinwheel/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_03_pinwheel/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_03_pinwheel/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_03_pinwheel/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gbc/anim_03_pinwheel/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gbc/anim_03_pinwheel/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -160,12 +160,12 @@
       "pattern": "checker_tunnel",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_04_checker_tunnel/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_04_checker_tunnel/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_04_checker_tunnel/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_04_checker_tunnel/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gbc/anim_04_checker_tunnel/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_04_checker_tunnel/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_04_checker_tunnel/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_04_checker_tunnel/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gbc/anim_04_checker_tunnel/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gbc/anim_04_checker_tunnel/strip.png",
       "maxUniqueTiles": 360,
       "tileErrors": 0
     },
@@ -174,12 +174,12 @@
       "pattern": "signal_bars",
       "frameCount": 4,
       "frames": [
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_05_signal_bars/frame_00.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_05_signal_bars/frame_01.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_05_signal_bars/frame_02.png",
-        "tools/psychedelic_backgrounds/generated/animations/gbc/anim_05_signal_bars/frame_03.png"
+        "GitHub/gb-pbg/generated/animations/gbc/anim_05_signal_bars/frame_00.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_05_signal_bars/frame_01.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_05_signal_bars/frame_02.png",
+        "GitHub/gb-pbg/generated/animations/gbc/anim_05_signal_bars/frame_03.png"
       ],
-      "strip": "tools/psychedelic_backgrounds/generated/animations/gbc/anim_05_signal_bars/strip.png",
+      "strip": "GitHub/gb-pbg/generated/animations/gbc/anim_05_signal_bars/strip.png",
       "maxUniqueTiles": 359,
       "tileErrors": 0
     }
@@ -398,7 +398,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_00_plasma.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_00_plasma.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -420,7 +420,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_01_rings.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_01_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -442,7 +442,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_02_vortex.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_02_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -464,7 +464,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_03_moire.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_03_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -486,7 +486,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_04_lissajous.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_04_lissajous.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -508,7 +508,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_05_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_05_checker_warp.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -530,7 +530,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_06_cellular.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_06_cellular.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -552,7 +552,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_07_hyperspace.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_07_hyperspace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -574,7 +574,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_08_orbitals.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_08_orbitals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -596,7 +596,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_09_scan_dream.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_09_scan_dream.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -618,7 +618,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_10_petals.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_10_petals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -640,7 +640,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_11_interference.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_11_interference.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -663,7 +663,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_12_title_plate.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_12_title_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -685,7 +685,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_13_topographic.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_13_topographic.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -707,7 +707,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_14_star_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_14_star_tunnel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -729,7 +729,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_15_magic_circle.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_15_magic_circle.png",
       "colorsTotal": 2,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -751,7 +751,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_16_crt_glitch.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_16_crt_glitch.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -773,7 +773,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_17_damask.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_17_damask.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -795,7 +795,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_18_rain_diagonal.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_18_rain_diagonal.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -817,7 +817,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_19_heat_shimmer.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_19_heat_shimmer.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -840,7 +840,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_20_snow_static.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_20_snow_static.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -862,7 +862,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_21_fog_bands.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_21_fog_bands.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -884,7 +884,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_22_wave_grid.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_22_wave_grid.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -906,7 +906,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_23_circuit_board.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_23_circuit_board.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -928,7 +928,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_24_flower_of_life.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_24_flower_of_life.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -950,7 +950,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_25_pinwheel.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_25_pinwheel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -972,7 +972,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_26_checker_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_26_checker_tunnel.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -994,7 +994,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_27_lace.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_27_lace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1017,7 +1017,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_28_divider_card.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_28_divider_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1040,7 +1040,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_29_letterbox_card.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_29_letterbox_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1063,7 +1063,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_30_spotlight_plate.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_30_spotlight_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1086,7 +1086,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_31_corner_bloom.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_31_corner_bloom.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1109,7 +1109,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_32_split_panel.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_32_split_panel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1131,7 +1131,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_33_signal_bars.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_33_signal_bars.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1153,7 +1153,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_34_ripple_field.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_34_ripple_field.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1175,7 +1175,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_35_woven.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_35_woven.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1188,8 +1188,8 @@
       "mode": "gb",
       "style": "full",
       "family": "op_art",
-      "name": "gb_psy_36_plasma.png",
-      "pattern": "plasma",
+      "name": "gb_psy_36_kaleidoscope.png",
+      "pattern": "kaleidoscope",
       "seed": 1337,
       "variant": 36,
       "tags": [
@@ -1197,117 +1197,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_36_plasma.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 308,
-      "duplicateTiles": 52,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "full",
-      "family": "op_art",
-      "name": "gb_psy_37_rings.png",
-      "pattern": "rings",
-      "seed": 1337,
-      "variant": 37,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_37_rings.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "full",
-      "family": "op_art",
-      "name": "gb_psy_38_vortex.png",
-      "pattern": "vortex",
-      "seed": 1337,
-      "variant": 38,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_38_vortex.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "full",
-      "family": "op_art",
-      "name": "gb_psy_39_moire.png",
-      "pattern": "moire",
-      "seed": 1337,
-      "variant": 39,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_39_moire.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "full",
-      "family": "op_art",
-      "name": "gb_psy_40_lissajous.png",
-      "pattern": "lissajous",
-      "seed": 1337,
-      "variant": 40,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_40_lissajous.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 351,
-      "duplicateTiles": 9,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "full",
-      "family": "op_art",
-      "name": "gb_psy_41_checker_warp.png",
-      "pattern": "checker_warp",
-      "seed": 1337,
-      "variant": 41,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_41_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_36_kaleidoscope.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1320,60 +1210,60 @@
       "mode": "gb",
       "style": "full",
       "family": "maps",
-      "name": "gb_psy_42_cellular.png",
-      "pattern": "cellular",
+      "name": "gb_psy_37_maze.png",
+      "pattern": "maze",
       "seed": 1337,
-      "variant": 42,
+      "variant": 37,
       "tags": [
         "full",
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_42_cellular.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_37_maze.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 32,
+      "duplicateTiles": 328,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "full",
+      "family": "glitch",
+      "name": "gb_psy_38_data_rain.png",
+      "pattern": "data_rain",
+      "seed": 1337,
+      "variant": 38,
+      "tags": [
+        "full",
+        "glitch"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_38_data_rain.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 352,
-      "duplicateTiles": 8,
-      "overSoftTileLimit": true
+      "uniqueTiles": 169,
+      "duplicateTiles": 191,
+      "overSoftTileLimit": false
     },
     {
       "mode": "gb",
       "style": "full",
       "family": "op_art",
-      "name": "gb_psy_43_hyperspace.png",
-      "pattern": "hyperspace",
+      "name": "gb_psy_39_sunburst.png",
+      "pattern": "sunburst",
       "seed": 1337,
-      "variant": 43,
+      "variant": 39,
       "tags": [
         "full",
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_43_hyperspace.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 335,
-      "duplicateTiles": 25,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "full",
-      "family": "misc",
-      "name": "gb_psy_44_orbitals.png",
-      "pattern": "orbitals",
-      "seed": 1337,
-      "variant": 44,
-      "tags": [
-        "full",
-        "misc"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_44_orbitals.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_39_sunburst.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1385,17 +1275,128 @@
     {
       "mode": "gb",
       "style": "full",
-      "family": "glitch",
-      "name": "gb_psy_45_scan_dream.png",
-      "pattern": "scan_dream",
+      "family": "op_art",
+      "name": "gb_psy_40_bubble_chamber.png",
+      "pattern": "bubble_chamber",
+      "seed": 1337,
+      "variant": 40,
+      "tags": [
+        "full",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_40_bubble_chamber.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 330,
+      "duplicateTiles": 30,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gb",
+      "style": "full",
+      "family": "maps",
+      "name": "gb_psy_41_city_grid.png",
+      "pattern": "city_grid",
+      "seed": 1337,
+      "variant": 41,
+      "tags": [
+        "full",
+        "maps"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_41_city_grid.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 186,
+      "duplicateTiles": 174,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "full",
+      "family": "ornamental",
+      "name": "gb_psy_42_ivy_scroll.png",
+      "pattern": "ivy_scroll",
+      "seed": 1337,
+      "variant": 42,
+      "tags": [
+        "full",
+        "ornamental"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_42_ivy_scroll.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 353,
+      "duplicateTiles": 7,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gb",
+      "style": "full",
+      "family": "scene_cards",
+      "name": "gb_psy_43_window_card.png",
+      "pattern": "window_card",
+      "seed": 1337,
+      "variant": 43,
+      "tags": [
+        "full",
+        "scene_cards",
+        "text_safe"
+      ],
+      "textSafe": true,
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_43_window_card.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 4,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 206,
+      "duplicateTiles": 154,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gb",
+      "style": "full",
+      "family": "op_art",
+      "name": "gb_psy_44_plasma.png",
+      "pattern": "plasma",
+      "seed": 1337,
+      "variant": 44,
+      "tags": [
+        "full",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_44_plasma.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 4,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 310,
+      "duplicateTiles": 50,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gb",
+      "style": "full",
+      "family": "op_art",
+      "name": "gb_psy_45_rings.png",
+      "pattern": "rings",
       "seed": 1337,
       "variant": 45,
       "tags": [
         "full",
-        "glitch"
+        "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_45_scan_dream.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_45_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1408,8 +1409,8 @@
       "mode": "gb",
       "style": "full",
       "family": "op_art",
-      "name": "gb_psy_46_petals.png",
-      "pattern": "petals",
+      "name": "gb_psy_46_vortex.png",
+      "pattern": "vortex",
       "seed": 1337,
       "variant": 46,
       "tags": [
@@ -1417,29 +1418,29 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_46_petals.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_46_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 358,
-      "duplicateTiles": 2,
+      "uniqueTiles": 360,
+      "duplicateTiles": 0,
       "overSoftTileLimit": true
     },
     {
       "mode": "gb",
       "style": "full",
-      "family": "glitch",
-      "name": "gb_psy_47_interference.png",
-      "pattern": "interference",
+      "family": "op_art",
+      "name": "gb_psy_47_moire.png",
+      "pattern": "moire",
       "seed": 1337,
       "variant": 47,
       "tags": [
         "full",
-        "glitch"
+        "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb/gb_psy_47_interference.png",
+      "path": "GitHub/gb-pbg/generated/gb/gb_psy_47_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1461,7 +1462,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_00_plasma.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_00_plasma.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1483,7 +1484,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_01_rings.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_01_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1505,7 +1506,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_02_vortex.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_02_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1527,7 +1528,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_03_moire.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_03_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1549,7 +1550,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_04_lissajous.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_04_lissajous.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1571,7 +1572,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_05_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_05_checker_warp.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1593,7 +1594,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_06_cellular.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_06_cellular.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1615,7 +1616,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_07_hyperspace.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_07_hyperspace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1637,7 +1638,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_08_orbitals.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_08_orbitals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1659,7 +1660,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_09_scan_dream.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_09_scan_dream.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1681,7 +1682,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_10_petals.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_10_petals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1703,7 +1704,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_11_interference.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_11_interference.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1726,7 +1727,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_12_title_plate.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_12_title_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1748,7 +1749,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_13_topographic.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_13_topographic.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1770,7 +1771,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_14_star_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_14_star_tunnel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1792,7 +1793,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_15_magic_circle.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_15_magic_circle.png",
       "colorsTotal": 2,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -1814,7 +1815,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_16_crt_glitch.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_16_crt_glitch.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1836,7 +1837,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_17_damask.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_17_damask.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1858,7 +1859,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_18_rain_diagonal.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_18_rain_diagonal.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1880,7 +1881,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_19_heat_shimmer.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_19_heat_shimmer.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1903,7 +1904,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_20_snow_static.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_20_snow_static.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -1925,7 +1926,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_21_fog_bands.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_21_fog_bands.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -1947,7 +1948,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_22_wave_grid.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_22_wave_grid.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -1969,7 +1970,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_23_circuit_board.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_23_circuit_board.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -1991,7 +1992,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_24_flower_of_life.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_24_flower_of_life.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2013,7 +2014,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_25_pinwheel.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_25_pinwheel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2035,7 +2036,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_26_checker_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_26_checker_tunnel.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2057,7 +2058,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_27_lace.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_27_lace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2080,7 +2081,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_28_divider_card.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_28_divider_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2103,7 +2104,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_29_letterbox_card.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_29_letterbox_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2126,7 +2127,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_30_spotlight_plate.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_30_spotlight_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2149,7 +2150,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_31_corner_bloom.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_31_corner_bloom.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2172,7 +2173,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_32_split_panel.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_32_split_panel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2194,7 +2195,7 @@
         "glitch"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_33_signal_bars.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_33_signal_bars.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2216,7 +2217,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_34_ripple_field.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_34_ripple_field.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2238,7 +2239,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_35_woven.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_35_woven.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2251,8 +2252,8 @@
       "mode": "gbc",
       "style": "full",
       "family": "op_art",
-      "name": "gbc_psy_36_plasma.png",
-      "pattern": "plasma",
+      "name": "gbc_psy_36_kaleidoscope.png",
+      "pattern": "kaleidoscope",
       "seed": 1337,
       "variant": 36,
       "tags": [
@@ -2260,117 +2261,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_36_plasma.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 308,
-      "duplicateTiles": 52,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gbc",
-      "style": "full",
-      "family": "op_art",
-      "name": "gbc_psy_37_rings.png",
-      "pattern": "rings",
-      "seed": 1337,
-      "variant": 37,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_37_rings.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gbc",
-      "style": "full",
-      "family": "op_art",
-      "name": "gbc_psy_38_vortex.png",
-      "pattern": "vortex",
-      "seed": 1337,
-      "variant": 38,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_38_vortex.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gbc",
-      "style": "full",
-      "family": "op_art",
-      "name": "gbc_psy_39_moire.png",
-      "pattern": "moire",
-      "seed": 1337,
-      "variant": 39,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_39_moire.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gbc",
-      "style": "full",
-      "family": "op_art",
-      "name": "gbc_psy_40_lissajous.png",
-      "pattern": "lissajous",
-      "seed": 1337,
-      "variant": 40,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_40_lissajous.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 351,
-      "duplicateTiles": 9,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gbc",
-      "style": "full",
-      "family": "op_art",
-      "name": "gbc_psy_41_checker_warp.png",
-      "pattern": "checker_warp",
-      "seed": 1337,
-      "variant": 41,
-      "tags": [
-        "full",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_41_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_36_kaleidoscope.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2383,60 +2274,60 @@
       "mode": "gbc",
       "style": "full",
       "family": "maps",
-      "name": "gbc_psy_42_cellular.png",
-      "pattern": "cellular",
+      "name": "gbc_psy_37_maze.png",
+      "pattern": "maze",
       "seed": 1337,
-      "variant": 42,
+      "variant": 37,
       "tags": [
         "full",
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_42_cellular.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_37_maze.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 32,
+      "duplicateTiles": 328,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "full",
+      "family": "glitch",
+      "name": "gbc_psy_38_data_rain.png",
+      "pattern": "data_rain",
+      "seed": 1337,
+      "variant": 38,
+      "tags": [
+        "full",
+        "glitch"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_38_data_rain.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 352,
-      "duplicateTiles": 8,
-      "overSoftTileLimit": true
+      "uniqueTiles": 169,
+      "duplicateTiles": 191,
+      "overSoftTileLimit": false
     },
     {
       "mode": "gbc",
       "style": "full",
       "family": "op_art",
-      "name": "gbc_psy_43_hyperspace.png",
-      "pattern": "hyperspace",
+      "name": "gbc_psy_39_sunburst.png",
+      "pattern": "sunburst",
       "seed": 1337,
-      "variant": 43,
+      "variant": 39,
       "tags": [
         "full",
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_43_hyperspace.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 335,
-      "duplicateTiles": 25,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gbc",
-      "style": "full",
-      "family": "misc",
-      "name": "gbc_psy_44_orbitals.png",
-      "pattern": "orbitals",
-      "seed": 1337,
-      "variant": 44,
-      "tags": [
-        "full",
-        "misc"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_44_orbitals.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_39_sunburst.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2448,17 +2339,128 @@
     {
       "mode": "gbc",
       "style": "full",
-      "family": "glitch",
-      "name": "gbc_psy_45_scan_dream.png",
-      "pattern": "scan_dream",
+      "family": "op_art",
+      "name": "gbc_psy_40_bubble_chamber.png",
+      "pattern": "bubble_chamber",
+      "seed": 1337,
+      "variant": 40,
+      "tags": [
+        "full",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_40_bubble_chamber.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 330,
+      "duplicateTiles": 30,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gbc",
+      "style": "full",
+      "family": "maps",
+      "name": "gbc_psy_41_city_grid.png",
+      "pattern": "city_grid",
+      "seed": 1337,
+      "variant": 41,
+      "tags": [
+        "full",
+        "maps"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_41_city_grid.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 186,
+      "duplicateTiles": 174,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "full",
+      "family": "ornamental",
+      "name": "gbc_psy_42_ivy_scroll.png",
+      "pattern": "ivy_scroll",
+      "seed": 1337,
+      "variant": 42,
+      "tags": [
+        "full",
+        "ornamental"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_42_ivy_scroll.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 353,
+      "duplicateTiles": 7,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gbc",
+      "style": "full",
+      "family": "scene_cards",
+      "name": "gbc_psy_43_window_card.png",
+      "pattern": "window_card",
+      "seed": 1337,
+      "variant": 43,
+      "tags": [
+        "full",
+        "scene_cards",
+        "text_safe"
+      ],
+      "textSafe": true,
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_43_window_card.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 4,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 206,
+      "duplicateTiles": 154,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gbc",
+      "style": "full",
+      "family": "op_art",
+      "name": "gbc_psy_44_plasma.png",
+      "pattern": "plasma",
+      "seed": 1337,
+      "variant": 44,
+      "tags": [
+        "full",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_44_plasma.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 4,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 310,
+      "duplicateTiles": 50,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gbc",
+      "style": "full",
+      "family": "op_art",
+      "name": "gbc_psy_45_rings.png",
+      "pattern": "rings",
       "seed": 1337,
       "variant": 45,
       "tags": [
         "full",
-        "glitch"
+        "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_45_scan_dream.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_45_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2471,8 +2473,8 @@
       "mode": "gbc",
       "style": "full",
       "family": "op_art",
-      "name": "gbc_psy_46_petals.png",
-      "pattern": "petals",
+      "name": "gbc_psy_46_vortex.png",
+      "pattern": "vortex",
       "seed": 1337,
       "variant": 46,
       "tags": [
@@ -2480,29 +2482,29 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_46_petals.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_46_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 358,
-      "duplicateTiles": 2,
+      "uniqueTiles": 360,
+      "duplicateTiles": 0,
       "overSoftTileLimit": true
     },
     {
       "mode": "gbc",
       "style": "full",
-      "family": "glitch",
-      "name": "gbc_psy_47_interference.png",
-      "pattern": "interference",
+      "family": "op_art",
+      "name": "gbc_psy_47_moire.png",
+      "pattern": "moire",
       "seed": 1337,
       "variant": 47,
       "tags": [
         "full",
-        "glitch"
+        "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc/gbc_psy_47_interference.png",
+      "path": "GitHub/gb-pbg/generated/gbc/gbc_psy_47_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -2524,7 +2526,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_00_plasma.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_00_plasma.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2546,7 +2548,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_01_rings.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_01_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2568,7 +2570,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_02_vortex.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_02_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2590,7 +2592,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_03_moire.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_03_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2612,7 +2614,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_04_lissajous.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_04_lissajous.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2634,7 +2636,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_05_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_05_checker_warp.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2656,7 +2658,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_06_cellular.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_06_cellular.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2678,7 +2680,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_07_hyperspace.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_07_hyperspace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2700,7 +2702,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_08_orbitals.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_08_orbitals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2722,7 +2724,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_09_scan_dream.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_09_scan_dream.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2744,7 +2746,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_10_petals.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_10_petals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2766,7 +2768,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_11_interference.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_11_interference.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2789,7 +2791,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_12_title_plate.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_12_title_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2811,7 +2813,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_13_topographic.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_13_topographic.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2833,7 +2835,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_14_star_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_14_star_tunnel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2855,7 +2857,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_15_magic_circle.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_15_magic_circle.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -2877,7 +2879,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_16_crt_glitch.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_16_crt_glitch.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -2899,7 +2901,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_17_damask.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_17_damask.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2921,7 +2923,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_18_rain_diagonal.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_18_rain_diagonal.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -2943,7 +2945,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_19_heat_shimmer.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_19_heat_shimmer.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2966,7 +2968,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_20_snow_static.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_20_snow_static.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -2988,7 +2990,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_21_fog_bands.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_21_fog_bands.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3010,7 +3012,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_22_wave_grid.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_22_wave_grid.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -3032,7 +3034,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_23_circuit_board.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_23_circuit_board.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -3054,7 +3056,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_24_flower_of_life.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_24_flower_of_life.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -3076,7 +3078,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_25_pinwheel.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_25_pinwheel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3098,7 +3100,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_26_checker_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_26_checker_tunnel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3120,7 +3122,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_27_lace.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_27_lace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3143,7 +3145,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_28_divider_card.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_28_divider_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3166,7 +3168,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_29_letterbox_card.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_29_letterbox_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3189,7 +3191,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_30_spotlight_plate.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_30_spotlight_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3212,7 +3214,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_31_corner_bloom.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_31_corner_bloom.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3235,7 +3237,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_32_split_panel.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_32_split_panel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3257,7 +3259,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_33_signal_bars.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_33_signal_bars.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3279,7 +3281,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_34_ripple_field.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_34_ripple_field.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3301,7 +3303,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_35_woven.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_35_woven.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3314,8 +3316,8 @@
       "mode": "gb",
       "style": "low_tile",
       "family": "op_art",
-      "name": "gb_low_tile_36_plasma.png",
-      "pattern": "plasma",
+      "name": "gb_low_tile_36_kaleidoscope.png",
+      "pattern": "kaleidoscope",
       "seed": 1337,
       "variant": 36,
       "tags": [
@@ -3323,7 +3325,206 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_36_plasma.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_36_kaleidoscope.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 55,
+      "duplicateTiles": 305,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "maps",
+      "name": "gb_low_tile_37_maze.png",
+      "pattern": "maze",
+      "seed": 1337,
+      "variant": 37,
+      "tags": [
+        "low_tile",
+        "maps"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_37_maze.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 11,
+      "duplicateTiles": 349,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "glitch",
+      "name": "gb_low_tile_38_data_rain.png",
+      "pattern": "data_rain",
+      "seed": 1337,
+      "variant": 38,
+      "tags": [
+        "glitch",
+        "low_tile"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_38_data_rain.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 25,
+      "duplicateTiles": 335,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gb_low_tile_39_sunburst.png",
+      "pattern": "sunburst",
+      "seed": 1337,
+      "variant": 39,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_39_sunburst.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 47,
+      "duplicateTiles": 313,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gb_low_tile_40_bubble_chamber.png",
+      "pattern": "bubble_chamber",
+      "seed": 1337,
+      "variant": 40,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_40_bubble_chamber.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 21,
+      "duplicateTiles": 339,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "maps",
+      "name": "gb_low_tile_41_city_grid.png",
+      "pattern": "city_grid",
+      "seed": 1337,
+      "variant": 41,
+      "tags": [
+        "low_tile",
+        "maps"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_41_city_grid.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 9,
+      "duplicateTiles": 351,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "ornamental",
+      "name": "gb_low_tile_42_ivy_scroll.png",
+      "pattern": "ivy_scroll",
+      "seed": 1337,
+      "variant": 42,
+      "tags": [
+        "low_tile",
+        "ornamental"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_42_ivy_scroll.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 21,
+      "duplicateTiles": 339,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "scene_cards",
+      "name": "gb_low_tile_43_window_card.png",
+      "pattern": "window_card",
+      "seed": 1337,
+      "variant": 43,
+      "tags": [
+        "low_tile",
+        "scene_cards",
+        "text_safe"
+      ],
+      "textSafe": true,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_43_window_card.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 23,
+      "duplicateTiles": 337,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gb_low_tile_44_plasma.png",
+      "pattern": "plasma",
+      "seed": 1337,
+      "variant": 44,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_44_plasma.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 54,
+      "duplicateTiles": 306,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gb_low_tile_45_rings.png",
+      "pattern": "rings",
+      "seed": 1337,
+      "variant": 45,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_45_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3336,206 +3537,8 @@
       "mode": "gb",
       "style": "low_tile",
       "family": "op_art",
-      "name": "gb_low_tile_37_rings.png",
-      "pattern": "rings",
-      "seed": 1337,
-      "variant": 37,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_37_rings.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 46,
-      "duplicateTiles": 314,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gb_low_tile_38_vortex.png",
+      "name": "gb_low_tile_46_vortex.png",
       "pattern": "vortex",
-      "seed": 1337,
-      "variant": 38,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_38_vortex.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 54,
-      "duplicateTiles": 306,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gb_low_tile_39_moire.png",
-      "pattern": "moire",
-      "seed": 1337,
-      "variant": 39,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_39_moire.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 51,
-      "duplicateTiles": 309,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gb_low_tile_40_lissajous.png",
-      "pattern": "lissajous",
-      "seed": 1337,
-      "variant": 40,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_40_lissajous.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 56,
-      "duplicateTiles": 304,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gb_low_tile_41_checker_warp.png",
-      "pattern": "checker_warp",
-      "seed": 1337,
-      "variant": 41,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_41_checker_warp.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 53,
-      "duplicateTiles": 307,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "maps",
-      "name": "gb_low_tile_42_cellular.png",
-      "pattern": "cellular",
-      "seed": 1337,
-      "variant": 42,
-      "tags": [
-        "low_tile",
-        "maps"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_42_cellular.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 52,
-      "duplicateTiles": 308,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gb_low_tile_43_hyperspace.png",
-      "pattern": "hyperspace",
-      "seed": 1337,
-      "variant": 43,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_43_hyperspace.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 37,
-      "duplicateTiles": 323,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "misc",
-      "name": "gb_low_tile_44_orbitals.png",
-      "pattern": "orbitals",
-      "seed": 1337,
-      "variant": 44,
-      "tags": [
-        "low_tile",
-        "misc"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_44_orbitals.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 54,
-      "duplicateTiles": 306,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "glitch",
-      "name": "gb_low_tile_45_scan_dream.png",
-      "pattern": "scan_dream",
-      "seed": 1337,
-      "variant": 45,
-      "tags": [
-        "glitch",
-        "low_tile"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_45_scan_dream.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 43,
-      "duplicateTiles": 317,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gb",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gb_low_tile_46_petals.png",
-      "pattern": "petals",
       "seed": 1337,
       "variant": 46,
       "tags": [
@@ -3543,35 +3546,35 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_46_petals.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_46_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 41,
-      "duplicateTiles": 319,
+      "uniqueTiles": 54,
+      "duplicateTiles": 306,
       "overSoftTileLimit": false
     },
     {
       "mode": "gb",
       "style": "low_tile",
-      "family": "glitch",
-      "name": "gb_low_tile_47_interference.png",
-      "pattern": "interference",
+      "family": "op_art",
+      "name": "gb_low_tile_47_moire.png",
+      "pattern": "moire",
       "seed": 1337,
       "variant": 47,
       "tags": [
-        "glitch",
-        "low_tile"
+        "low_tile",
+        "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gb_low_tile/gb_low_tile_47_interference.png",
+      "path": "GitHub/gb-pbg/generated/gb_low_tile/gb_low_tile_47_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 56,
-      "duplicateTiles": 304,
+      "uniqueTiles": 53,
+      "duplicateTiles": 307,
       "overSoftTileLimit": false
     },
     {
@@ -3587,7 +3590,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_00_plasma.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_00_plasma.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3609,7 +3612,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_01_rings.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_01_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3631,7 +3634,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_02_vortex.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_02_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3653,7 +3656,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_03_moire.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_03_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3675,7 +3678,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_04_lissajous.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_04_lissajous.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3697,7 +3700,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_05_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_05_checker_warp.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3719,7 +3722,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_06_cellular.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_06_cellular.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3741,7 +3744,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_07_hyperspace.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_07_hyperspace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3763,7 +3766,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_08_orbitals.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_08_orbitals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3785,7 +3788,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_09_scan_dream.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_09_scan_dream.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3807,7 +3810,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_10_petals.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_10_petals.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3829,7 +3832,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_11_interference.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_11_interference.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3852,7 +3855,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_12_title_plate.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_12_title_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3874,7 +3877,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_13_topographic.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_13_topographic.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3896,7 +3899,7 @@
         "misc"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_14_star_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_14_star_tunnel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3918,7 +3921,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_15_magic_circle.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_15_magic_circle.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -3940,7 +3943,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_16_crt_glitch.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_16_crt_glitch.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -3962,7 +3965,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_17_damask.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_17_damask.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -3984,7 +3987,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_18_rain_diagonal.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_18_rain_diagonal.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -4006,7 +4009,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_19_heat_shimmer.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_19_heat_shimmer.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4029,7 +4032,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_20_snow_static.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_20_snow_static.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4051,7 +4054,7 @@
         "weather"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_21_fog_bands.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_21_fog_bands.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4073,7 +4076,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_22_wave_grid.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_22_wave_grid.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -4095,7 +4098,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_23_circuit_board.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_23_circuit_board.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -4117,7 +4120,7 @@
         "maps"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_24_flower_of_life.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_24_flower_of_life.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -4139,7 +4142,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_25_pinwheel.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_25_pinwheel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4161,7 +4164,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_26_checker_tunnel.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_26_checker_tunnel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4183,7 +4186,7 @@
         "ornamental"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_27_lace.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_27_lace.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4206,7 +4209,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_28_divider_card.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_28_divider_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4229,7 +4232,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_29_letterbox_card.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_29_letterbox_card.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4252,7 +4255,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_30_spotlight_plate.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_30_spotlight_plate.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4275,7 +4278,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_31_corner_bloom.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_31_corner_bloom.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4298,7 +4301,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_32_split_panel.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_32_split_panel.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4320,7 +4323,7 @@
         "low_tile"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_33_signal_bars.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_33_signal_bars.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4342,7 +4345,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_34_ripple_field.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_34_ripple_field.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4364,7 +4367,7 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_35_woven.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_35_woven.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4377,8 +4380,8 @@
       "mode": "gbc",
       "style": "low_tile",
       "family": "op_art",
-      "name": "gbc_low_tile_36_plasma.png",
-      "pattern": "plasma",
+      "name": "gbc_low_tile_36_kaleidoscope.png",
+      "pattern": "kaleidoscope",
       "seed": 1337,
       "variant": 36,
       "tags": [
@@ -4386,7 +4389,206 @@
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_36_plasma.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_36_kaleidoscope.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 55,
+      "duplicateTiles": 305,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "maps",
+      "name": "gbc_low_tile_37_maze.png",
+      "pattern": "maze",
+      "seed": 1337,
+      "variant": 37,
+      "tags": [
+        "low_tile",
+        "maps"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_37_maze.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 11,
+      "duplicateTiles": 349,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "glitch",
+      "name": "gbc_low_tile_38_data_rain.png",
+      "pattern": "data_rain",
+      "seed": 1337,
+      "variant": 38,
+      "tags": [
+        "glitch",
+        "low_tile"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_38_data_rain.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 25,
+      "duplicateTiles": 335,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gbc_low_tile_39_sunburst.png",
+      "pattern": "sunburst",
+      "seed": 1337,
+      "variant": 39,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_39_sunburst.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 47,
+      "duplicateTiles": 313,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gbc_low_tile_40_bubble_chamber.png",
+      "pattern": "bubble_chamber",
+      "seed": 1337,
+      "variant": 40,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_40_bubble_chamber.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 21,
+      "duplicateTiles": 339,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "maps",
+      "name": "gbc_low_tile_41_city_grid.png",
+      "pattern": "city_grid",
+      "seed": 1337,
+      "variant": 41,
+      "tags": [
+        "low_tile",
+        "maps"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_41_city_grid.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 9,
+      "duplicateTiles": 351,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "ornamental",
+      "name": "gbc_low_tile_42_ivy_scroll.png",
+      "pattern": "ivy_scroll",
+      "seed": 1337,
+      "variant": 42,
+      "tags": [
+        "low_tile",
+        "ornamental"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_42_ivy_scroll.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 21,
+      "duplicateTiles": 339,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "scene_cards",
+      "name": "gbc_low_tile_43_window_card.png",
+      "pattern": "window_card",
+      "seed": 1337,
+      "variant": 43,
+      "tags": [
+        "low_tile",
+        "scene_cards",
+        "text_safe"
+      ],
+      "textSafe": true,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_43_window_card.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 23,
+      "duplicateTiles": 337,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gbc_low_tile_44_plasma.png",
+      "pattern": "plasma",
+      "seed": 1337,
+      "variant": 44,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_44_plasma.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 3,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 54,
+      "duplicateTiles": 306,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gbc",
+      "style": "low_tile",
+      "family": "op_art",
+      "name": "gbc_low_tile_45_rings.png",
+      "pattern": "rings",
+      "seed": 1337,
+      "variant": 45,
+      "tags": [
+        "low_tile",
+        "op_art"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_45_rings.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4399,38 +4601,16 @@
       "mode": "gbc",
       "style": "low_tile",
       "family": "op_art",
-      "name": "gbc_low_tile_37_rings.png",
-      "pattern": "rings",
-      "seed": 1337,
-      "variant": 37,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_37_rings.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 46,
-      "duplicateTiles": 314,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gbc_low_tile_38_vortex.png",
+      "name": "gbc_low_tile_46_vortex.png",
       "pattern": "vortex",
       "seed": 1337,
-      "variant": 38,
+      "variant": 46,
       "tags": [
         "low_tile",
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_38_vortex.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_46_vortex.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4443,60 +4623,16 @@
       "mode": "gbc",
       "style": "low_tile",
       "family": "op_art",
-      "name": "gbc_low_tile_39_moire.png",
+      "name": "gbc_low_tile_47_moire.png",
       "pattern": "moire",
       "seed": 1337,
-      "variant": 39,
+      "variant": 47,
       "tags": [
         "low_tile",
         "op_art"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_39_moire.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 51,
-      "duplicateTiles": 309,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gbc_low_tile_40_lissajous.png",
-      "pattern": "lissajous",
-      "seed": 1337,
-      "variant": 40,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_40_lissajous.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 56,
-      "duplicateTiles": 304,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gbc_low_tile_41_checker_warp.png",
-      "pattern": "checker_warp",
-      "seed": 1337,
-      "variant": 41,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_41_checker_warp.png",
+      "path": "GitHub/gb-pbg/generated/gbc_low_tile/gbc_low_tile_47_moire.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
@@ -4506,142 +4642,54 @@
       "overSoftTileLimit": false
     },
     {
-      "mode": "gbc",
-      "style": "low_tile",
+      "mode": "gb",
+      "style": "seed_explorer",
       "family": "maps",
-      "name": "gbc_low_tile_42_cellular.png",
-      "pattern": "cellular",
+      "name": "seed_00_score_730_city_grid_s1337.png",
+      "pattern": "city_grid",
       "seed": 1337,
-      "variant": 42,
+      "variant": 41,
       "tags": [
-        "low_tile",
-        "maps"
+        "maps",
+        "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_42_cellular.png",
-      "colorsTotal": 4,
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_00_score_730_city_grid_s1337.png",
+      "colorsTotal": 3,
       "maxColorsPerTile": 3,
       "tileErrors": 0,
       "totalTiles": 360,
-      "uniqueTiles": 52,
-      "duplicateTiles": 308,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gbc_low_tile_43_hyperspace.png",
-      "pattern": "hyperspace",
-      "seed": 1337,
-      "variant": 43,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_43_hyperspace.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 37,
-      "duplicateTiles": 323,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "misc",
-      "name": "gbc_low_tile_44_orbitals.png",
-      "pattern": "orbitals",
-      "seed": 1337,
-      "variant": 44,
-      "tags": [
-        "low_tile",
-        "misc"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_44_orbitals.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 54,
-      "duplicateTiles": 306,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "glitch",
-      "name": "gbc_low_tile_45_scan_dream.png",
-      "pattern": "scan_dream",
-      "seed": 1337,
-      "variant": 45,
-      "tags": [
-        "glitch",
-        "low_tile"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_45_scan_dream.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 43,
-      "duplicateTiles": 317,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "op_art",
-      "name": "gbc_low_tile_46_petals.png",
-      "pattern": "petals",
-      "seed": 1337,
-      "variant": 46,
-      "tags": [
-        "low_tile",
-        "op_art"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_46_petals.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 41,
-      "duplicateTiles": 319,
-      "overSoftTileLimit": false
-    },
-    {
-      "mode": "gbc",
-      "style": "low_tile",
-      "family": "glitch",
-      "name": "gbc_low_tile_47_interference.png",
-      "pattern": "interference",
-      "seed": 1337,
-      "variant": 47,
-      "tags": [
-        "glitch",
-        "low_tile"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/gbc_low_tile/gbc_low_tile_47_interference.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 3,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 56,
-      "duplicateTiles": 304,
+      "uniqueTiles": 186,
+      "duplicateTiles": 174,
       "overSoftTileLimit": false
     },
     {
       "mode": "gb",
       "style": "seed_explorer",
       "family": "maps",
-      "name": "seed_00_score_711_circuit_board_s1670.png",
+      "name": "seed_01_score_712_maze_s1374.png",
+      "pattern": "maze",
+      "seed": 1374,
+      "variant": 38,
+      "tags": [
+        "maps",
+        "seed_explorer"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_01_score_712_maze_s1374.png",
+      "colorsTotal": 3,
+      "maxColorsPerTile": 2,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 32,
+      "duplicateTiles": 328,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "seed_explorer",
+      "family": "maps",
+      "name": "seed_02_score_711_circuit_board_s1670.png",
       "pattern": "circuit_board",
       "seed": 1670,
       "variant": 32,
@@ -4650,7 +4698,7 @@
         "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_00_score_711_circuit_board_s1670.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_02_score_711_circuit_board_s1670.png",
       "colorsTotal": 3,
       "maxColorsPerTile": 2,
       "tileErrors": 0,
@@ -4663,7 +4711,7 @@
       "mode": "gb",
       "style": "seed_explorer",
       "family": "scene_cards",
-      "name": "seed_01_score_694_title_plate_s1485.png",
+      "name": "seed_03_score_694_title_plate_s1485.png",
       "pattern": "title_plate",
       "seed": 1485,
       "variant": 16,
@@ -4673,7 +4721,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_01_score_694_title_plate_s1485.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_03_score_694_title_plate_s1485.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -4685,8 +4733,31 @@
     {
       "mode": "gb",
       "style": "seed_explorer",
+      "family": "scene_cards",
+      "name": "seed_04_score_693_window_card_s1633.png",
+      "pattern": "window_card",
+      "seed": 1633,
+      "variant": 51,
+      "tags": [
+        "scene_cards",
+        "seed_explorer",
+        "text_safe"
+      ],
+      "textSafe": true,
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_04_score_693_window_card_s1633.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 4,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 190,
+      "duplicateTiles": 170,
+      "overSoftTileLimit": false
+    },
+    {
+      "mode": "gb",
+      "style": "seed_explorer",
       "family": "op_art",
-      "name": "seed_02_score_689_checker_warp_s1448.png",
+      "name": "seed_05_score_689_checker_warp_s1448.png",
       "pattern": "checker_warp",
       "seed": 1448,
       "variant": 8,
@@ -4695,7 +4766,7 @@
         "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_02_score_689_checker_warp_s1448.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_05_score_689_checker_warp_s1448.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -4708,7 +4779,7 @@
       "mode": "gb",
       "style": "seed_explorer",
       "family": "op_art",
-      "name": "seed_03_score_684_lissajous_s1522.png",
+      "name": "seed_06_score_684_lissajous_s1522.png",
       "pattern": "lissajous",
       "seed": 1522,
       "variant": 9,
@@ -4717,7 +4788,7 @@
         "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_03_score_684_lissajous_s1522.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_06_score_684_lissajous_s1522.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -4730,7 +4801,7 @@
       "mode": "gb",
       "style": "seed_explorer",
       "family": "op_art",
-      "name": "seed_04_score_679_hyperspace_s1559.png",
+      "name": "seed_07_score_679_hyperspace_s1559.png",
       "pattern": "hyperspace",
       "seed": 1559,
       "variant": 13,
@@ -4739,7 +4810,7 @@
         "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_04_score_679_hyperspace_s1559.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_07_score_679_hyperspace_s1559.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -4752,7 +4823,7 @@
       "mode": "gb",
       "style": "seed_explorer",
       "family": "scene_cards",
-      "name": "seed_05_score_675_split_panel_s1448.png",
+      "name": "seed_08_score_675_split_panel_s1448.png",
       "pattern": "split_panel",
       "seed": 1448,
       "variant": 35,
@@ -4762,7 +4833,7 @@
         "text_safe"
       ],
       "textSafe": true,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_05_score_675_split_panel_s1448.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_08_score_675_split_panel_s1448.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -4775,7 +4846,7 @@
       "mode": "gb",
       "style": "seed_explorer",
       "family": "op_art",
-      "name": "seed_06_score_674_pinwheel_s1559.png",
+      "name": "seed_09_score_674_pinwheel_s1559.png",
       "pattern": "pinwheel",
       "seed": 1559,
       "variant": 31,
@@ -4784,7 +4855,7 @@
         "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_06_score_674_pinwheel_s1559.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_09_score_674_pinwheel_s1559.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
@@ -4797,7 +4868,29 @@
       "mode": "gb",
       "style": "seed_explorer",
       "family": "op_art",
-      "name": "seed_07_score_671_vortex_s1707.png",
+      "name": "seed_10_score_672_kaleidoscope_s1559.png",
+      "pattern": "kaleidoscope",
+      "seed": 1559,
+      "variant": 42,
+      "tags": [
+        "op_art",
+        "seed_explorer"
+      ],
+      "textSafe": false,
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_10_score_672_kaleidoscope_s1559.png",
+      "colorsTotal": 4,
+      "maxColorsPerTile": 4,
+      "tileErrors": 0,
+      "totalTiles": 360,
+      "uniqueTiles": 360,
+      "duplicateTiles": 0,
+      "overSoftTileLimit": true
+    },
+    {
+      "mode": "gb",
+      "style": "seed_explorer",
+      "family": "op_art",
+      "name": "seed_11_score_671_vortex_s1707.png",
       "pattern": "vortex",
       "seed": 1707,
       "variant": 12,
@@ -4806,95 +4899,7 @@
         "seed_explorer"
       ],
       "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_07_score_671_vortex_s1707.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "seed_explorer",
-      "family": "op_art",
-      "name": "seed_08_score_670_rings_s1744.png",
-      "pattern": "rings",
-      "seed": 1744,
-      "variant": 12,
-      "tags": [
-        "op_art",
-        "seed_explorer"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_08_score_670_rings_s1744.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 359,
-      "duplicateTiles": 1,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "seed_explorer",
-      "family": "op_art",
-      "name": "seed_09_score_667_moire_s1633.png",
-      "pattern": "moire",
-      "seed": 1633,
-      "variant": 11,
-      "tags": [
-        "op_art",
-        "seed_explorer"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_09_score_667_moire_s1633.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 360,
-      "duplicateTiles": 0,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "seed_explorer",
-      "family": "weather",
-      "name": "seed_10_score_667_heat_shimmer_s1485.png",
-      "pattern": "heat_shimmer",
-      "seed": 1485,
-      "variant": 23,
-      "tags": [
-        "seed_explorer",
-        "weather"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_10_score_667_heat_shimmer_s1485.png",
-      "colorsTotal": 4,
-      "maxColorsPerTile": 4,
-      "tileErrors": 0,
-      "totalTiles": 360,
-      "uniqueTiles": 333,
-      "duplicateTiles": 27,
-      "overSoftTileLimit": true
-    },
-    {
-      "mode": "gb",
-      "style": "seed_explorer",
-      "family": "glitch",
-      "name": "seed_11_score_664_interference_s1707.png",
-      "pattern": "interference",
-      "seed": 1707,
-      "variant": 21,
-      "tags": [
-        "glitch",
-        "seed_explorer"
-      ],
-      "textSafe": false,
-      "path": "tools/psychedelic_backgrounds/generated/seed_explorer/seed_11_score_664_interference_s1707.png",
+      "path": "GitHub/gb-pbg/generated/seed_explorer/seed_11_score_671_vortex_s1707.png",
       "colorsTotal": 4,
       "maxColorsPerTile": 4,
       "tileErrors": 0,
