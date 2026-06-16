@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw, ImageFont
 WIDTH = 160
 HEIGHT = 144
 TILE = 8
-DEFAULT_COUNT = 48
+DEFAULT_COUNT = 56
 DEFAULT_SEED = 1337
 GB_STUDIO_SOFT_TILE_LIMIT = 192
 LOW_TILE_MOTIF_COUNT = 16
@@ -92,6 +92,18 @@ PATTERNS = [
     "city_grid",
     "ivy_scroll",
     "window_card",
+    "labyrinth_rings",
+    "constellation_map",
+    "tarot_frame",
+    "oscilloscope",
+    "herringbone",
+    "stained_glass",
+    "spiral_garden",
+    "radar_sweep",
+    "magnetic_field",
+    "rune_wall",
+    "water_caustics",
+    "transmission_tower",
 ]
 
 FAMILY_PATTERNS = {
@@ -112,6 +124,9 @@ FAMILY_PATTERNS = {
         "kaleidoscope",
         "sunburst",
         "bubble_chamber",
+        "labyrinth_rings",
+        "stained_glass",
+        "water_caustics",
     ],
     "scene_cards": [
         "title_plate",
@@ -121,6 +136,7 @@ FAMILY_PATTERNS = {
         "corner_bloom",
         "split_panel",
         "window_card",
+        "tarot_frame",
     ],
     "text_safe": [
         "title_plate",
@@ -130,6 +146,7 @@ FAMILY_PATTERNS = {
         "corner_bloom",
         "split_panel",
         "window_card",
+        "tarot_frame",
     ],
     "glitch": [
         "crt_glitch",
@@ -138,6 +155,8 @@ FAMILY_PATTERNS = {
         "snow_static",
         "interference",
         "data_rain",
+        "oscilloscope",
+        "transmission_tower",
     ],
     "maps": [
         "topographic",
@@ -147,6 +166,10 @@ FAMILY_PATTERNS = {
         "magic_circle",
         "maze",
         "city_grid",
+        "constellation_map",
+        "radar_sweep",
+        "magnetic_field",
+        "rune_wall",
     ],
     "weather": [
         "rain_diagonal",
@@ -162,6 +185,9 @@ FAMILY_PATTERNS = {
         "woven",
         "ivy_scroll",
         "kaleidoscope",
+        "herringbone",
+        "spiral_garden",
+        "tarot_frame",
     ],
 }
 
@@ -177,6 +203,8 @@ ANIMATION_PATTERNS = [
     "fog_bands",
     "kaleidoscope",
     "data_rain",
+    "oscilloscope",
+    "radar_sweep",
 ]
 
 
@@ -578,6 +606,163 @@ def pattern_value(pattern: str, x: int, y: int, variant: int, seed: int, width: 
         center_quiet = 0.32 + normalize(math.sin((x + y) * 0.025 + s)) * 0.1
         quiet = center_quiet if abs(nx) < 0.31 and abs(ny) < 0.22 else corner_texture
         return max(border, mullion, quiet)
+
+    if pattern == "labyrinth_rings":
+        ring_index = int((r * 92.0 + math.sin(a * 5.0 + s) * 2.0) // 5)
+        angle_index = int(((a + math.pi) / (math.pi * 2.0)) * (24 + variant % 8))
+        gate = noise01(ring_index, angle_index, seed + variant) > 0.66
+        wall = abs(fract(r * 18.0 + math.sin(a * 3.0) * 0.12) - 0.5) < 0.075
+        radial = abs(math.sin(a * (12 + variant % 6) + s)) < 0.08 and not gate
+        fill = normalize(math.sin(r * 64.0 - s) + math.cos(a * 4.0))
+        return 0.95 if wall or radial else fill * 0.42
+
+    if pattern == "constellation_map":
+        value = 0.06 + noise01(x // 2, y // 2, seed + variant) * 0.12
+        points = []
+        for i in range(11):
+            px = (noise01(i, 3, seed + variant) - 0.5) * 0.92
+            py = (noise01(i, 11, seed + variant) - 0.5) * 0.82
+            points.append((px, py))
+            rr = (nx - px) ** 2 + (ny - py) ** 2
+            if rr < 0.0009 + noise01(i, 19, seed) * 0.0009:
+                value = 1.0
+        for i, (ax, ay) in enumerate(points):
+            bx, by = points[(i + 3 + variant % 4) % len(points)]
+            dx = bx - ax
+            dy = by - ay
+            length_sq = max(0.0001, dx * dx + dy * dy)
+            t = max(0.0, min(1.0, ((nx - ax) * dx + (ny - ay) * dy) / length_sq))
+            px = ax + dx * t
+            py = ay + dy * t
+            dist = (nx - px) ** 2 + (ny - py) ** 2
+            if dist < 0.000055 and noise01(i, variant, seed) > 0.34:
+                value = max(value, 0.72)
+        return value
+
+    if pattern == "tarot_frame":
+        border = 0.95 if x < 5 or x >= width - 5 or y < 5 or y >= height - 5 else 0.0
+        inner = 0.9 if abs(abs(nx) - 0.37) < 0.012 or abs(abs(ny) - 0.34) < 0.012 else 0.0
+        sun = 0.88 if abs(math.sqrt(nx * nx + (ny + 0.2) ** 2) - 0.13) < 0.01 and y < height * 0.5 else 0.0
+        corner = max(abs(nx) - 0.28, abs(ny) - 0.25)
+        ornament = normalize(math.sin((abs(nx) + abs(ny)) * 74.0 + s) + math.sin(a * 12.0))
+        quiet = 0.3 + normalize(math.sin(y * 0.035 + s)) * 0.08
+        return max(border, inner, sun, ornament if corner > 0 else quiet)
+
+    if pattern == "oscilloscope":
+        trace = 0.0
+        for i in range(4):
+            baseline = height * (0.22 + i * 0.18)
+            wave = baseline + math.sin(x * (0.09 + i * 0.015) + s + i) * (8 + i * 2)
+            wave += math.sin(x * 0.025 - s * 0.7) * 5
+            if abs(y - wave) < 1.4:
+                trace = 0.95
+        grid = 0.22 if x % 16 == 0 or y % 16 == 0 else 0.0
+        phosphor = normalize(math.sin(x * 0.17 + s) + math.sin(y * 0.2 - s)) * 0.38
+        return max(grid, trace, phosphor)
+
+    if pattern == "herringbone":
+        tx = x // 8
+        ty = y // 8
+        lx = x % 8
+        ly = y % 8
+        flip = (tx + ty + variant) % 2
+        diagonal = lx + ly if flip else lx - ly + 7
+        stripe = 0.92 if diagonal % 8 in (0, 1, 2) else 0.18
+        seam = 0.72 if lx in (0, 7) or ly in (0, 7) else 0.0
+        shade = normalize(math.sin((tx - ty) * 0.8 + s))
+        return max(seam, stripe * 0.75 + shade * 0.25)
+
+    if pattern == "stained_glass":
+        nearest = 999.0
+        second = 999.0
+        for i in range(10):
+            px = (noise01(i, 5, seed + variant) - 0.5) * 1.1
+            py = (noise01(i, 13, seed + variant) - 0.5) * 0.95
+            dist = (nx - px) ** 2 + (ny - py) ** 2
+            if dist < nearest:
+                second = nearest
+                nearest = dist
+            elif dist < second:
+                second = dist
+        lead = 0.96 if abs(math.sqrt(second) - math.sqrt(nearest)) < 0.012 else 0.0
+        pane = normalize(math.sin(nearest * 240.0 + s) + math.sin((nx + ny) * 18.0))
+        return max(lead, pane * 0.7)
+
+    if pattern == "spiral_garden":
+        spiral = math.sin(a * (5 + variant % 5) + r * 78.0 + s)
+        vine = 1.0 if abs(spiral) < 0.11 else 0.0
+        leaves = 1.0 if abs(math.sin(a * 14.0 + r * 115.0 - s)) > 0.95 and abs(spiral) < 0.42 else 0.0
+        soil = normalize(math.sin(nx * 30.0 + s) + math.cos(ny * 28.0 - s))
+        return max(vine, leaves, soil * 0.38)
+
+    if pattern == "radar_sweep":
+        rings = 0.86 if abs(fract(r * 8.0) - 0.5) < 0.035 else 0.0
+        spokes = 0.72 if abs(math.sin(a * 8.0)) < 0.045 else 0.0
+        sweep_angle = (s * 0.45) % (math.pi * 2.0) - math.pi
+        sweep = max(0.0, 1.0 - abs(math.atan2(math.sin(a - sweep_angle), math.cos(a - sweep_angle))) * 3.0)
+        blip = 0.0
+        for i in range(6):
+            br = 0.08 + noise01(i, 4, seed + variant) * 0.42
+            ba = -math.pi + noise01(i, 8, seed + variant) * math.pi * 2.0
+            bx = math.cos(ba) * br
+            by = math.sin(ba) * br
+            if (nx - bx) ** 2 + (ny - by) ** 2 < 0.0007:
+                blip = 1.0
+        return max(rings, spokes, sweep * 0.72, blip)
+
+    if pattern == "magnetic_field":
+        p1 = math.sqrt((nx + 0.2) ** 2 + ny * ny)
+        p2 = math.sqrt((nx - 0.2) ** 2 + ny * ny)
+        field = p1 - p2
+        lines = 0.94 if abs(fract(field * 12.0 + math.sin(r * 8.0 + s) * 0.08) - 0.5) < 0.045 else 0.0
+        poles = 0.9 if p1 < 0.045 or p2 < 0.045 else 0.0
+        shade = normalize(math.sin((p1 + p2) * 40.0 - s))
+        return max(lines, poles, shade * 0.38)
+
+    if pattern == "rune_wall":
+        tx = x // TILE
+        ty = y // TILE
+        lx = x % TILE
+        ly = y % TILE
+        glyph = int(noise01(tx, ty, seed + variant) * 6)
+        stroke = False
+        if glyph == 0:
+            stroke = lx in (3, 4) or ly in (1, 6)
+        elif glyph == 1:
+            stroke = lx == ly or lx + ly == 7
+        elif glyph == 2:
+            stroke = lx in (2, 5) or (ly in (2, 5) and 1 < lx < 6)
+        elif glyph == 3:
+            stroke = ly in (1, 3, 6) or lx == 5
+        elif glyph == 4:
+            stroke = lx in (1, 6) or ly == lx // 2 + 2
+        else:
+            stroke = (lx - 3.5) ** 2 + (ly - 3.5) ** 2 < 7.0 and (lx + ly) % 3 != 0
+        mortar = 0.55 if lx == 0 or ly == 0 else 0.0
+        stone = 0.18 + noise01(tx * 2 + lx // 4, ty * 2 + ly // 4, seed) * 0.22
+        return max(mortar, 0.95 if stroke else stone)
+
+    if pattern == "water_caustics":
+        warp_x = nx + math.sin(ny * 34.0 + s) * 0.025 + math.sin((nx + ny) * 22.0) * 0.018
+        warp_y = ny + math.cos(nx * 31.0 - s) * 0.025
+        caustic = abs(math.sin(warp_x * 42.0 + math.sin(warp_y * 27.0 + s) * 2.0))
+        caustic *= abs(math.cos(warp_y * 37.0 + math.sin(warp_x * 19.0 - s) * 2.5))
+        waves = normalize(math.sin((warp_x + warp_y) * 24.0 + s))
+        return min(1.0, caustic * 1.2 + waves * 0.28)
+
+    if pattern == "transmission_tower":
+        ground = 0.7 if y > height * 0.78 else 0.0
+        mast_x = width * (0.5 + math.sin(s) * 0.08)
+        mast = 0.92 if abs(x - mast_x) < 2 and y > height * 0.25 else 0.0
+        cross = 0.88 if abs(y - height * 0.35) < 2 and abs(x - mast_x) < 38 else 0.0
+        cross = max(cross, 0.82 if abs(y - height * 0.5) < 2 and abs(x - mast_x) < 27 else 0.0)
+        cable = 0.0
+        for side in (-1, 1):
+            curve = height * 0.34 + abs(x - (mast_x + side * 38)) * 0.018 + math.sin(x * 0.05 + s) * 2.0
+            if abs(y - curve) < 1.2:
+                cable = 0.86
+        signal = normalize(math.sin((x - mast_x) * 0.18 + s) + math.sin(y * 0.16))
+        return max(ground, mast, cross, cable, signal * 0.35)
 
     raise ValueError(f"Unknown pattern: {pattern}")
 
